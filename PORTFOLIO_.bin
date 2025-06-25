@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | KHUSHI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>KHUSHI</h1>
+     <nav>
+        <a href="#Home"> Home</a>
+        <a href="#skills"> skills</a>
+        <a href="#about me"> about me</a>
+        
+        <a target="_blank" href="https://www.linkedin.com/in/khushi-51306636a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> linked in</a>
+
+    </nav>
+    <p>Web Developer | | Coder</p>
+  </header>
+
+  <section id="about">
+    <img src="html/photo.jpg" alt="Your Photo" />
+    <div>
+      <h2>About Me</h2>
+      <p>I am a passionate web developer with experience in HTML, CSS, JS, and C++.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li><li>C++</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="html/project1.jpg" alt="Project 1" />
+      <h3>Project Title 1</h3>
+      <p>
+        
+It's a responsive, scrollable capsule exploring the beautiful diversity of cultures around the world. 🇮🇳🇯🇵🇲🇽
+
+🔧 Built With:
+✅ HTML
+✅ CSS
+✅ Basic JavaScript
+
+🎯 Features:
+
+Responsive design
+
+Interactive cards for each country
+
+Smooth animations
+
+Clean UI focused on cultural storytelling
+      </p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="html/resume.jpg" >download resume</a>
+
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: khushibharuwala@gmail.com</p>
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2025 khushi rights reserved.</p>
+  </footer>  <script src="script.js"></script>
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #E0CEC7;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F0BAA4;
+}
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+#about {
+  display: flex;
+  gap: 1rem;
+}
+#about img {
+  width: 150px;
+  border-radius: 50%;
+}
+#skills ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.project {
+  margin-top: 1rem;
+}
+.project img {
+  width: 100%;
+  max-width: 400px;
+}
+footer {
+  text-align: center;
+  background: #eebba9;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+h1{ color:#000000;
+  scrollbar-shadow-color: hsla(149, 60%, 42%, 1);
+  
+  font-style:oblique 40deg;
+  font-family:serif; 
+  word-spacing:6;
+  text-shadow:1px 1px 1px #072912;
+  
+  font-weight:900;
+  line-height: 2;
+  text-indent:100px;
+  text-align:left;
+  
+} h2{
+  
+font-style:oblique 40deg;
+  font-family:serif;}
+  <script>
+
+  document.querySelector("header").style.opacity = 0;
+  window.onload = () => {
+    document.querySelector("header").style.transition = "opacity 2s";
+    document.querySelector("header").style.opacity = 1;
+  };
+
+</script>
