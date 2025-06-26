@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #E0CEC7;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F0BAA4;
+}
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+#about {
+  display: flex;
+  gap: 1rem;
+}
+#about img {
+  width: 150px;
+  border-radius: 50%;
+}
+#skills ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.project {
+  margin-top: 1rem;
+}
+.project img {
+  width: 100%;
+  max-width: 400px;
+}
+footer {
+  text-align: center;
+  background: #eebba9;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+h1{ color:#000000;
+  scrollbar-shadow-color: hsla(149, 60%, 42%, 1);
+  
+  font-style:oblique 40deg;
+  font-family:serif; 
+  word-spacing:6;
+  text-shadow:1px 1px 1px #072912;
+  
+  font-weight:900;
+  line-height: 2;
+  text-indent:100px;
+  text-align:left;
+  
+} h2{
+  
+font-style:oblique 40deg;
+  font-family:serif;}
